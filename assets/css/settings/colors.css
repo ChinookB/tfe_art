@@ -1,0 +1,9 @@
+/* ============================================
+typography
+============================================ */
+:root {
+  --color-background-primary: white;
+  --color-txt-primary: black;
+  --color-txt-secondary: grey;
+  --color-accent: red;
+}
