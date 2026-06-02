@@ -1,0 +1,11 @@
+/* ============================================
+intro
+============================================ */
+
+.intro {
+  --intro-txt-size: 60ch;
+
+  text-align: center;
+  max-inline-size: var(--intro-txt-size);
+  margin: 0 auto;
+}
