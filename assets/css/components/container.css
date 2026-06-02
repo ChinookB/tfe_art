@@ -1,3 +1,7 @@
+/* ============================================
+container
+============================================ */
+
 .container {
   --container-padding: 24px;
   --container-size: 1500px;
@@ -5,4 +9,12 @@
   max-inline-size: var(--container-size);
   margin: 0 auto;
   padding-inline: var(--container-padding);
+}
+
+.container-medium {
+  --container-size: 1024px;
+}
+
+.container-small {
+  --container-size: 600px;
 }
