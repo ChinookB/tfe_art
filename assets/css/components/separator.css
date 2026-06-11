@@ -1,0 +1,21 @@
+/* ============================================
+separator
+============================================ */
+
+/*
+appliqué à des <hr />
+*/
+
+.separator {
+  --separator-height: clamp(60px, 2.285rem + 4.688vi, 90px);
+
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  height: var(--separator-height);
+  background-image: url(../../img/section-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 0;
+}
