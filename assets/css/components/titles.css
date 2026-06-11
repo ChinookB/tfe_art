@@ -32,6 +32,6 @@ titles
   text-transform: unset;
   font-family: var(--fontstack-main);
   font-size: var(--fontsize-h4);
-  font-weight: 500;
-  margin-block-end: 1em;
+  font-weight: 550;
+  margin-block-end: 0.6em;
 }
