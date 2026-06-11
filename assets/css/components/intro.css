@@ -4,7 +4,6 @@ intro
 
 .intro {
   text-align: center;
-  margin-block-end: clamp(42px, 0.281rem + 7.5vi, 90px);
 }
 
 .intro-text {
@@ -15,4 +14,5 @@ intro
 
 .intro-text-highlight {
   color: var(--color-accent-dark);
+  font-weight: 450;
 }

@@ -35,9 +35,8 @@ mainnav
   }
 
   &.is-active {
-    color: var(--color-text-primary);
     text-decoration: underline;
-    text-underline-offset: 0.36ch;
+    text-underline-offset: 0.6ch;
     text-decoration-thickness: 2px;
     text-decoration-color: var(--color-accent-dark);
   }
