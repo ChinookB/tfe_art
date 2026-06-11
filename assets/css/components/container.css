@@ -3,7 +3,7 @@ container
 ============================================ */
 
 .container {
-  --container-padding: 24px;
+  --container-padding: 18px;
   --container-size: 1500px;
 
   margin: 0 auto;
