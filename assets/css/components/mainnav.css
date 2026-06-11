@@ -3,7 +3,7 @@ mainnav
 ============================================ */
 
 .mainnav {
-  --mainnav-gap: 42px;
+  --mainnav-gap: 30px;
   --mainnav-letter-spacing: 0.12ch;
 
   list-style: none;
@@ -15,6 +15,10 @@ mainnav
   justify-content: center;
   align-content: center;
   gap: var(--mainnav-gap);
+
+  @media (width >= 750px) {
+    --mainnav-gap: 42px;
+  }
 }
 
 .mainnav-link {

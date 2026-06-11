@@ -22,3 +22,7 @@ container
 .container-small {
   --container-size: 600px;
 }
+
+.container-text {
+  --container-size: 75ch;
+}
