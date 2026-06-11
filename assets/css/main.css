@@ -17,7 +17,7 @@
 @import "components/intro.css" layer(components);
 @import "components/grid.css" layer(components);
 @import "components/titles.css" layer(components);
-@import "components/fluideimg.css" layer(components);
+@import "components/fluidimg.css" layer(components);
 
 /* UTILITIES */
 /* @import "utilities/visually-hidden.css" layer(utilities); */

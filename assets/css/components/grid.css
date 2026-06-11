@@ -8,7 +8,7 @@ classes de base
 
 .grid {
   --grid-columns: 1;
-  --grid-gap: 18px;
+  --grid-gap: 30px;
 
   list-style: none;
   margin: 0;
@@ -29,6 +29,10 @@ classes de base
 
 .grid-4cols {
   --grid-columns: 4;
+}
+
+.grid-align-center {
+  align-items: center;
 }
 
 /* ============================================
