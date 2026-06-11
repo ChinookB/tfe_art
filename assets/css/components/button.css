@@ -11,12 +11,13 @@ button
 
   background-color: var(--button-background);
   color: var(--button-txt-color);
-  font-size: var(--fontsize-sm);
+  font-size: var(--fontsize-base);
   text-transform: uppercase;
   text-shadow: 0 1px 0 white;
   line-height: 1;
   border-radius: 6px;
   text-decoration: none;
+  font-weight: 500;
 
   transition: background-color 0.2s ease-out;
 
