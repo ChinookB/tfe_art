@@ -1,0 +1,12 @@
+/* ============================================
+header
+============================================ */
+
+.header {
+  padding-block: clamp(30px, 0.996rem + 2.813vi, 48px);
+  text-align: center;
+}
+
+.header-logo {
+  margin-block-end: 30px;
+}

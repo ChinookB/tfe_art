@@ -20,6 +20,9 @@
 @import "components/fluidimg.css" layer(components);
 @import "components/button.css" layer(components);
 @import "components/patchwork.css" layer(components);
+@import "components/header.css" layer(components);
+@import "components/mainnav.css" layer(components);
 
 /* UTILITIES */
 @import "utilities/text-align.css" layer(utilities);
+@import "utilities/spacing.css" layer(utilities);

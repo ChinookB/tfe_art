@@ -1,0 +1,44 @@
+/* ============================================
+mainnav
+============================================ */
+
+.mainnav {
+  --mainnav-gap: 42px;
+  --mainnav-letter-spacing: 0.12ch;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: var(--mainnav-gap);
+}
+
+.mainnav-link {
+  padding-block: 6px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: var(--fontsize-sm);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-text-primary);
+  letter-spacing: var(--mainnav-letter-spacing);
+
+  transition: color 0.2s ease-out;
+
+  &:hover,
+  &:focus {
+    color: var(--color-accent-dark);
+  }
+
+  &.is-active {
+    color: var(--color-text-primary);
+    text-decoration: underline;
+    text-underline-offset: 0.36ch;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--color-accent-dark);
+  }
+}
