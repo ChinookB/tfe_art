@@ -24,6 +24,7 @@
 @import "components/mainnav.css" layer(components);
 @import "components/footer.css" layer(components);
 @import "components/separator.css" layer(components);
+@import "components/fluidvideo.css" layer(components);
 
 /* UTILITIES */
 @import "utilities/text-align.css" layer(utilities);
