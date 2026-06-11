@@ -1,0 +1,13 @@
+/* ============================================
+modules body
+============================================ */
+
+.modules-body {
+  --modules-gap: clamp(60px, 2.285rem + 4.688vi, 90px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  gap: var(--modules-gap);
+}
