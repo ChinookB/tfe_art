@@ -18,6 +18,7 @@
 @import "components/grid.css" layer(components);
 @import "components/titles.css" layer(components);
 @import "components/fluidimg.css" layer(components);
+@import "components/button.css" layer(components);
 
 /* UTILITIES */
 /* @import "utilities/visually-hidden.css" layer(utilities); */

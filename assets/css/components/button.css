@@ -1,0 +1,27 @@
+/* ============================================
+button
+============================================ */
+
+.button {
+  --button-background: var(--color-accent);
+  --button-txt-color: var(--color-txt-primary);
+  display: inline-block;
+
+  padding: 18px 30px;
+
+  background-color: var(--button-background);
+  color: var(--button-txt-color);
+  font-size: var(--fontsize-sm);
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 white;
+  line-height: 1;
+  border-radius: 6px;
+  text-decoration: none;
+
+  transition: background-color 0.2s ease-out;
+
+  &:hover,
+  &:focus {
+    --button-background: color-mix(var(--color-accent), black 3%);
+  }
+}
