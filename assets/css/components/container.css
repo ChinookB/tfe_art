@@ -6,8 +6,8 @@ container
   --container-padding: 24px;
   --container-size: 1500px;
 
-  max-inline-size: var(--container-size);
   margin: 0 auto;
+  max-inline-size: var(--container-size);
   padding-inline: var(--container-padding);
 }
 

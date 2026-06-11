@@ -2,8 +2,41 @@
 typography
 ============================================ */
 :root {
+  --color-green: oklch(91.129% 0.06876 136.738);
+  --color-green-light: oklch(from var(--color-green) 98% c h);
+  --color-green-dark: oklch(from var(--color-green) 60% calc(c + 0.09) h);
+
+  --color-blue: oklch(91.129% 0.06876 214.693);
+  --color-blue-light: oklch(from var(--color-blue) 98% c h);
+  --color-blue-dark: oklch(from var(--color-blue) 60% calc(c + 0.09) h);
+
+  --color-orange: oklch(91.129% 0.06876 73.551);
+  --color-orange-light: oklch(from var(--color-orange) 98% c h);
+  --color-orange-dark: oklch(from var(--color-orange) 60% calc(c + 0.09) h);
+
   --color-background-primary: white;
   --color-txt-primary: black;
   --color-txt-secondary: grey;
-  --color-accent: red;
+
+  --color-accent: var(--color-green);
+  --color-accent-light: var(--color-green-light);
+  --color-accent-dark: var(--color-green-dark);
+}
+
+[data-theme="green"] {
+  --color-accent: var(--color-green);
+  --color-accent-light: var(--color-green-light);
+  --color-accent-dark: var(--color-green-dark);
+}
+
+[data-theme="blue"] {
+  --color-accent: var(--color-blue);
+  --color-accent-light: var(--color-blue-light);
+  --color-accent-dark: var(--color-blue-dark);
+}
+
+[data-theme="orange"] {
+  --color-accent: var(--color-orange);
+  --color-accent-light: var(--color-orange-light);
+  --color-accent-dark: var(--color-orange-dark);
 }

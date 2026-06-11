@@ -8,6 +8,7 @@
 @import "base/reset.css" layer(base);
 @import "base/html.css" layer(base);
 @import "base/fonts.css" layer(base);
+@import "base/body.css" layer(base);
 
 /* COMPONENTS */
 /* @import "components/container.css" layer(components); */
@@ -15,6 +16,7 @@
 @import "components/container.css" layer(components);
 @import "components/intro.css" layer(components);
 @import "components/grid.css" layer(components);
+@import "components/titles.css" layer(components);
 
 /* UTILITIES */
 /* @import "utilities/visually-hidden.css" layer(utilities); */
