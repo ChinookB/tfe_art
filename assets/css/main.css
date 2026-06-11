@@ -7,6 +7,7 @@
 /* BASE */
 @import "base/reset.css" layer(base);
 @import "base/html.css" layer(base);
+@import "base/fonts.css" layer(base);
 
 /* COMPONENTS */
 /* @import "components/container.css" layer(components); */

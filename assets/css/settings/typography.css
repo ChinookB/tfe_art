@@ -2,6 +2,6 @@
 typography
 ============================================ */
 :root {
-  --fontstack-main: "Georgia", serif;
+  --fontstack-main: "Boska-Variable", "Georgia", serif;
   --fontstack-alt: "Gerogia", serif;
 }
