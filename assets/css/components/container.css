@@ -9,6 +9,10 @@ container
   margin: 0 auto;
   max-inline-size: var(--container-size);
   padding-inline: var(--container-padding);
+
+  @media (width >= 750px) {
+    --container-padding: 32px;
+  }
 }
 
 .container-medium {
