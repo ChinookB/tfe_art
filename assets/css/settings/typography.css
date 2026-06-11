@@ -2,19 +2,19 @@
 typography
 ============================================ */
 
-/* https://www.modularscale.com/?16&px&1.2 */
+/* https://www.modularscale.com/?18&px&1.125 */
 
 :root {
   --fontstack-main: "GeneralSans", system-ui, sans-serif;
   --fontstack-alt: "Boska", "Georgia", serif;
 
-  --fontsize-h1: clamp(48px, -1.469rem + 12.5vi, 119px);
-  --fontsize-h2: clamp(40px, 1.084rem + 4.531vi, 69px);
-  --fontsize-h3: clamp(33px, 1.33rem + 2.344vi, 48px);
-  --fontsize-h4: calc(24/16 * 1rem);
+  --fontsize-h1: clamp(46px, -0.641rem + 11.25vi, 118px);
+  --fontsize-h2: clamp(36px, 1.469rem + 2.5vi, 52px);
+  --fontsize-h3: clamp(32px, 1.316rem + 2.188vi, 46px);
+  --fontsize-h4: calc(26/16 * 1rem);
 
-  --fontsize-sm: calc(13/16 * 1rem);
-  --fontsize-base: 1rem;
-  --fontsize-md: clamp(19px, 1.027rem + 0.313vi, 23px);
-  --fontsize-lg: clamp(23px, 1.006rem + 0.781vi, 28px);
+  --fontsize-sm: calc(14/16 * 1rem);
+  --fontsize-base: clamp(1rem, 0.902rem + 0.313vi, 18/16 * 1rem);
+  --fontsize-md: clamp(18px, 1.027rem + 0.313vi, 20px);
+  --fontsize-lg: clamp(20px, 1.104rem + 0.469vi, 23px);
 }
