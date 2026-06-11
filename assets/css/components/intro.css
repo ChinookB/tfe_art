@@ -15,4 +15,5 @@ intro
 
 .intro-text-highlight {
   color: var(--color-accent-dark);
+  font-weight: 450;
 }
