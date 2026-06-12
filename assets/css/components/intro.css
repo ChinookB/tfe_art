@@ -9,7 +9,7 @@ intro
 .intro-text {
   font-size: var(--fontsize-md);
   margin: 0 auto;
-  max-inline-size: 70ch;
+  max-inline-size: 50ch;
 }
 
 .intro-text-highlight {
