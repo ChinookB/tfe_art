@@ -26,6 +26,7 @@
 @import "components/separator.css" layer(components);
 @import "components/fluidvideo.css" layer(components);
 @import "components/modules-body.css" layer(components);
+@import "components/avatar.css" layer(components);
 
 /* UTILITIES */
 @import "utilities/text-align.css" layer(utilities);

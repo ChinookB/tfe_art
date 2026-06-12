@@ -42,11 +42,12 @@ media width >= 750px
   translate: -2vi 0;
 
   @media (width >= 500px) {
-    rotate: 0deg;
-    translate: 0 0;
+    rotate: 2deg;
+    translate: 4vi 0;
 
     grid-column: 1 / 5;
     grid-row: 1 / 4;
+    z-index: 1;
   }
 }
 

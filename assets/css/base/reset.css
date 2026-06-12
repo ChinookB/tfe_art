@@ -3,6 +3,10 @@ reset
 ============================================ */
 /* enlever les styles pas défauts */
 
+@view-transition {
+  navigation: auto;
+}
+
 *,
 *::before,
 *::after {
