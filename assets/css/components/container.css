@@ -26,3 +26,7 @@ container
 .container-text {
   --container-size: 75ch;
 }
+
+.container-img {
+  overflow: hidden;
+}
