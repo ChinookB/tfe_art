@@ -1,0 +1,20 @@
+/* ============================================
+lien des oeuvres de la homepage
+============================================ */
+.uppercase {
+  text-transform: uppercase;
+}
+
+.decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title-oeuvre {
+  font-size: var(--fontsize-lg);
+  font-weight: 500;
+}
+
+.color-name {
+  color: var(--color-accent-dark);
+}

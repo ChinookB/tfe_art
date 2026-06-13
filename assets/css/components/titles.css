@@ -22,6 +22,7 @@ titles
 .h2 {
   font-size: var(--fontsize-h2);
   margin-block-end: 0.6em;
+  text-decoration: none;
 }
 
 .h3 {

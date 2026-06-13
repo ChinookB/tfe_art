@@ -27,6 +27,7 @@
 @import "components/fluidvideo.css" layer(components);
 @import "components/modules-body.css" layer(components);
 @import "components/avatar.css" layer(components);
+@import "components/lienoeuvre.css" layer(components);
 
 /* UTILITIES */
 @import "utilities/text-align.css" layer(utilities);
