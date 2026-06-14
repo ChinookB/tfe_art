@@ -1,0 +1,34 @@
+/* ============================================
+texte
+============================================ */
+
+.txt-artiste {
+  font-size: var(--fontsize-base);
+}
+
+.caption {
+  font-size: var(--fontsize-sm);
+  color: var(--color-txt-secondary);
+}
+
+/* ============================================
+couleur sur la photo
+============================================ */
+
+.artiste-img {
+  content: "";
+  background-color: var(--color-blue-light);
+  z-index: 1;
+  mix-blend-mode: multiply;
+  opacity: 90%;
+}
+
+/* ============================================
+txt dexcription oeuvre
+============================================ */
+
+.oeuvre-text {
+  font-size: var(--fontsize-md);
+  margin: 0 auto;
+  max-inline-size: 65ch;
+}
