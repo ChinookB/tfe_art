@@ -6,6 +6,7 @@
     <title>tfe_art</title>
     <meta name="description" content="ma jolie description" />
     <link rel="stylesheet" href="/assets/css/main.css" />
+    <script type="module" src="/js/module/main.js"></script>
 
     <!-- @TODO Open graph -->
     <meta property="og:url" content="http://www.monsite.com" />
@@ -159,12 +160,12 @@
             <div class="grid grid-2cols-md">
               <div>
                 <figure class="figure">
-                  <div class="pie-2xl">
+                  <div class="pis-2xl">
                     <h2 class="h2">Àla découverte de l'adaptation</h2>
                     <div class="txt-artiste">
                       <h2 class="h4 pis-md">
                         Cette animation a été réalisée avec la technique du stop
-                        motion.
+                        motion
                       </h2>
                       <p>
                         Le stop motion est une technique d'animation permettant
@@ -190,23 +191,43 @@
                         impression de profondeur, tout en gardant cet aspect
                         onirique.
                       </p>
+                      <h2 class="h4 pis-md pbs-md">
+                        Cliquer sur l'image pour découvrir l'oeuvre originiale
+                      </h2>
+
+                      <hr class="flechedroite" />
                     </div>
                   </div>
                 </figure>
               </div>
               <div>
                 <figure class="figure">
-                  <img
-                    src="/assets/img/artistes/dechirico.jpg"
-                    class="fluidimg artiste-img"
-                    alt="dechirico"
-                    loading="lazy"
-                    decoding="async"
-                    width="800"
-                    height="600"
-                  />
-                  <figcaption class="figure-caption caption text-end">
-                    Découvrir l'oeuvre originale
+                  <div class="card js-card">
+                    <div class="card-recto">
+                      <img
+                        src="/assets/img/oeuvres-adapt/surrealisme-adapt.jpg"
+                        class="fluidimg artiste-img"
+                        alt="dechirico"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="600"
+                      />
+                    </div>
+                    <div class="card-verso">
+                      <img
+                        src="/assets/img/oeuvres/surrealisme.jpg"
+                        class="fluidimg artiste-img"
+                        alt="dechirico"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="600"
+                      />
+                    </div>
+                  </div>
+                  <figcaption class="figure-caption caption text-start">
+                    L'oeuvre originale et l'adaptation
                   </figcaption>
                 </figure>
               </div>

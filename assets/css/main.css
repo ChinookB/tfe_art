@@ -31,6 +31,7 @@
 @import "components/imageanim.css" layer(components);
 @import "components/scrollanim.css" layer(components);
 @import "components/pagecourant.css" layer(components);
+@import "components/flipcard.css" layer(components);
 
 /* UTILITIES */
 @import "utilities/text-align.css" layer(utilities);

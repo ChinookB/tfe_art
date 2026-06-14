@@ -11,4 +11,7 @@ fluidvideo
 
 .fluidvideo-4by3 {
   aspect-ratio: 4/3;
+  background-color: black;
+  inline-size: 100%;
+  block-size: auto;
 }

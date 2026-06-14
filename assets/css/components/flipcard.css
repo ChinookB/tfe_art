@@ -1,0 +1,50 @@
+/* ============================================
+flipcard oeuvre originale/adapt
+============================================ */
+
+.card {
+  inline-size: 600px;
+  block-size: 800px;
+
+  display: grid;
+  cursor: pointer;
+
+  /* garde la 3D sur les enfants (card-recto et card-verso) */
+  transform-style: preserve-3d;
+
+  transition:
+    transform 0.2s linear,
+    rotate 0.1s linear;
+}
+
+.card:hover {
+  rotate: 1deg;
+}
+
+.card.is-flipped {
+  /* on ajoute une perspective (plus le nombre est petit plus la perspective est violente) et on fait une rotation sur l'axe des Y */
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.card-recto,
+.card-verso {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  /* on cache la face arrière des item qui subissent une transformation */
+  backface-visibility: hidden;
+}
+
+.card-recto {
+}
+
+.card-verso {
+  /* on fait une rotation sur l'axe des Y par defaut */
+  transform: rotateY(180deg);
+}
+
+.card img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+}
