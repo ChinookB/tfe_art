@@ -2,11 +2,7 @@
 module mediatext
 ============================================ */
 
-.module-mediatext {
-  margin: 0;
-}
-
-.module-mediatext-content {
+.mediatext {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   grid-template-areas:
@@ -31,7 +27,7 @@ module mediatext
   }
 }
 
-.module-mediatext-reverse .module-mediatext-content {
+.mediatext-reverse {
   @media (width >= 750px) {
     grid-template-areas: "b a";
   }
@@ -46,11 +42,11 @@ module mediatext
   }
 }
 
-.module-mediatext-media {
+.mediatext-media {
   grid-area: a;
 }
 
-.module-mediatext-text {
+.mediatext-text {
   grid-area: b;
   align-self: center;
 }

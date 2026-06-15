@@ -25,8 +25,7 @@
 @import "components/footer.css" layer(components);
 @import "components/separator.css" layer(components);
 @import "components/fluidvideo.css" layer(components);
-@import "components/modules-body.css" layer(components);
-@import "components/module-mediatext.css" layer(components);
+@import "components/modulesbody.css" layer(components);
 @import "components/avatar.css" layer(components);
 @import "components/lienoeuvre.css" layer(components);
 @import "components/imageanim.css" layer(components);
@@ -34,6 +33,7 @@
 /* @import "components/pagecourant.css" layer(components); */
 @import "components/flipcard.css" layer(components);
 @import "components/figure.css" layer(components);
+@import "components/mediatext.css" layer(components);
 
 /* UTILITIES */
 @import "utilities/text-align.css" layer(utilities);

@@ -2,7 +2,7 @@
 modules body
 ============================================ */
 
-.modules-body {
+.modulesbody {
   --modules-gap: clamp(60px, 2.285rem + 4.688vi, 90px);
 
   display: flex;
@@ -10,4 +10,8 @@ modules body
   justify-content: start;
   align-items: stretch;
   gap: var(--modules-gap);
+}
+
+.modulesbody-module {
+  display: block;
 }

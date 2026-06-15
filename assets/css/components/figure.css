@@ -12,3 +12,7 @@ figure
   font-size: var(--fontsize-xs);
   color: var(--color-txt-secondary);
 }
+
+.figure-caption > *:last-child {
+  margin-block-end: 0;
+}

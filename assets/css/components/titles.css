@@ -8,7 +8,7 @@ titles
 .h4 {
   font-family: var(--fontstack-alt);
 
-  line-height: 1.02;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--color-text-primary);
   font-weight: 600;
@@ -17,12 +17,15 @@ titles
 .h1 {
   font-size: var(--fontsize-h1);
   margin-block-end: 0.36em;
+  line-height: 1.08;
+  word-wrap: balance;
 }
 
 .h2 {
   font-size: var(--fontsize-h2);
   margin-block-end: 0.6em;
   text-decoration: none;
+  word-wrap: balance;
 }
 
 .h3 {
