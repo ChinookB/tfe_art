@@ -26,10 +26,13 @@
 @import "components/separator.css" layer(components);
 @import "components/fluidvideo.css" layer(components);
 @import "components/modulesbody.css" layer(components);
+
 @import "components/avatar.css" layer(components);
 @import "components/lienoeuvre.css" layer(components);
 @import "components/imageanim.css" layer(components);
 @import "components/scrollanim.css" layer(components);
+@import "components/maskanim.css" layer(components);
+
 /* @import "components/pagecourant.css" layer(components); */
 @import "components/flipcard.css" layer(components);
 @import "components/figure.css" layer(components);
