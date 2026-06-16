@@ -1,54 +1,8 @@
 /* ============================================
-animation scroll du patchwork
+animations simples déclenchées au scroll
 ============================================ */
 
-.scrollanim-translategauche {
-  @media (prefers-reduced-motion: no-preference) {
-    animation: translate-gauche linear both;
-    animation-timeline: view();
-    animation-range: entry 0% exit 75%;
-  }
-}
-
-@keyframes translate-gauche {
-  from {
-    transform: translateX(-2vi);
-  }
-  to {
-    transform: translateX(0px);
-  }
-}
-
-.scrollanim-translatedroite {
-  @media (prefers-reduced-motion: no-preference) {
-    animation: translate-droite linear both;
-    animation-timeline: view();
-    animation-range: entry 0% exit 75%;
-  }
-}
-
-@keyframes translate-droite {
-  from {
-    transform: translateX(2vi);
-  }
-  to {
-    transform: translateX(0px);
-  }
-}
-
-.scrollanim-translatehaut {
-  @media (prefers-reduced-motion: no-preference) {
-    animation: translate-haut linear both;
-    animation-timeline: view();
-    animation-range: entry 0% exit 75%;
-  }
-}
-
-@keyframes translate-haut {
-  from {
-    transform: translateY(2vi);
-  }
-  to {
-    transform: translateY(0px);
-  }
-}
+/*
+CSS Scroll triggered animations
+regarder sur Send a Raven
+*/
