@@ -1,0 +1,38 @@
+/* ============================================
+reveal image
+============================================ */
+
+/*
+- deux images les unes sur les autres avec grid
+- utilisation de clip-path pour afficher l'image invisible en :hover
+*/
+
+.revealimage {
+  display: grid;
+  cursor: pointer;
+}
+
+.revealimage > img {
+  grid-area: 1 / 1;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.revealimage-revealed {
+  z-index: 2;
+}
+
+.revealimage-displayed {
+  z-index: 1;
+}
+
+.revealimage-revealed {
+  transition: clip-path 0.36s linear;
+  clip-path: inset(0 100% 0 0);
+}
+
+.revealimage:hover .revealimage-revealed,
+.revealimage:focus .revealimage-revealed {
+  clip-path: inset(0 0 0 0);
+}

@@ -29,7 +29,6 @@
 @import "components/lienoeuvre.css" layer(components);
 @import "components/imageanim.css" layer(components);
 @import "components/scrollanim.css" layer(components);
-@import "components/maskanim.css" layer(components);
 @import "components/revealimage.css" layer(components);
 @import "components/flipcard.css" layer(components);
 @import "components/figure.css" layer(components);
