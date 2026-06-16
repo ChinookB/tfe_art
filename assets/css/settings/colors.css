@@ -25,6 +25,10 @@ typography
   --color-orange-light: oklch(from var(--color-orange) 98% c h);
   --color-orange-dark: oklch(from var(--color-orange) 60% calc(c + 0.09) h);
 
+  --color-purple: oklch(82.047% 0.08009 300.148);
+  --color-purple-light: oklch(from var(--color-purple) 98% c h);
+  --color-purple-dark: oklch(from var(--color-purple) 60% calc(c + 0.09) h);
+
   --color-txt-primary: var(--color-gray-100);
   --color-txt-secondary: var(--color-gray-400);
 
@@ -49,4 +53,10 @@ typography
   --color-accent: var(--color-orange);
   --color-accent-light: var(--color-orange-light);
   --color-accent-dark: var(--color-orange-dark);
+}
+
+[data-theme="purple"] {
+  --color-accent: var(--color-purple);
+  --color-accent-light: var(--color-purple-light);
+  --color-accent-dark: var(--color-purple-dark);
 }
