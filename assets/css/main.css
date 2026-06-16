@@ -11,7 +11,6 @@
 @import "base/body.css" layer(base);
 
 /* COMPONENTS */
-/* @import "components/container.css" layer(components); */
 @import "components/section.css" layer(components);
 @import "components/container.css" layer(components);
 @import "components/intro.css" layer(components);
@@ -31,8 +30,6 @@
 @import "components/imageanim.css" layer(components);
 @import "components/scrollanim.css" layer(components);
 @import "components/revealimage.css" layer(components);
-
-/* @import "components/pagecourant.css" layer(components); */
 @import "components/flipcard.css" layer(components);
 @import "components/figure.css" layer(components);
 @import "components/mediatext.css" layer(components);
