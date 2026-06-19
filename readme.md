@@ -11,7 +11,6 @@
   - Courant artistique
   - Nom de l'artiste
 
-- Making off
-  -
+- ## Making off
 
 - Footer
