@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="fr" data-theme="blue">
+<html lang="fr" data-theme="orange">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tfe_art</title>
     <meta name="description" content="ma jolie description" />
     <link rel="stylesheet" href="/assets/css/main.css" />
+    <script type="module" src="/js/module/main.js"></script>
 
     <!-- @TODO Open graph -->
     <meta property="og:url" content="http://www.monsite.com" />
@@ -53,7 +54,7 @@
       <div class="section">
         <div class="container container-medium">
           <div class="intro">
-            <h1 class="h1">Le pop-art</h1>
+            <h1 class="h1">Le pop art</h1>
             <div class="intro-text intro-text-highlight">
               <p>
                 Et si les œuvres d'art cessaient d'être immobiles ? Ici, les
@@ -73,7 +74,7 @@
             <div class="mediatext-media">
               <figure class="figure">
                 <img
-                  src="/assets/img/artistes/dechirico.jpg"
+                  src="/assets/img/artistes/haring.jpg"
                   class="fluidimg artiste-img"
                   alt="dechirico"
                   loading="lazy"
@@ -82,31 +83,32 @@
                   height="600"
                 />
                 <figcaption class="figure-caption">
-                  Giorgio De Chirico peignant “bagni misteriosi”
+                  Keith Haring réalisant ses graffitis à la craie dans les
+                  couloirs du métro de New York
                 </figcaption>
               </figure>
             </div>
             <div class="mediatext-text">
-              <h2 class="h2">le surréalisme avec giorgio de chirico</h2>
+              <h2 class="h2">le pop art avec Keith Haring</h2>
               <p>
-                Giorgio de Chirico est un peintre surréaliste italien. Ses
-                paysages oniriques et étranges font de lui l'un des artistes les
-                plus influents du XXe siècle.
+                Keith Haring est un artiste, dessinateur et sculpteur américain.
+                Figure emblématique du pop art et de l'art urbain des années
+                1980, il s'est fait connaître en dessinant à la craie dans les
+                couloirs du métro de New York.
               </p>
               <p>
-                Né en 1924 avec le manifeste d'André Breton, le surréalisme
-                cherche à libérer la création de la raison et du contrôle
-                conscient en explorant l'inconscient, le rêve et le hasard. Son
-                but est de révéler une réalité supérieure, « surréaliste »,
-                issue du monde intérieur.
+                Le Pop Art est né dans les années 1950 en Grande-Bretagne avant
+                de véritablement exploser dans les années 1960 aux États-Unis.
+                Il est apparu en réaction à la culture élitiste et à
+                l'expressionnisme abstrait, en puisant son inspiration dans la
+                culture de masse et la société de consommation.
               </p>
               <p>
-                Les artistes déforment les objets et utilisent des techniques
-                comme le dessin automatique, le collage ou la peinture. Une
-                œuvre surréaliste se compose ainsi généralement d'éléments
-                inattendus, juxtaposés sans lien logique apparent, sur des
-                thèmes comme le rêve, l'imagination ou les phénomènes
-                extraordinaires.
+                Les artistes appartenant à ce mouvement utilisent des couleurs
+                vives, des techniques de production de masse (comme la
+                sérigraphie) et l'intégration de la culture populaire :
+                célébrités, publicités, marques commerciales ou bandes
+                dessinées.
               </p>
             </div>
           </div>
@@ -119,19 +121,21 @@
         <div class="container container-large">
           <figure class="figure">
             <video
-              src="/assets/video/Final_G_2.mp4"
-              class="fluidvideo-4by3"
+              src="/assets/video/final_H.mp4"
+              poster="/assets/img/poster/poster-popart.png"
+              class="fluidvideo"
               controls
+              loop
             >
               <p>
-                <a href="/assets/video/Final_G_2.mp4">Télécharger la video</a>
+                <a href="/assets/video/final_H.mp4">Télécharger la video</a>
                 en format MP4
               </p>
             </video>
             <figcaption class="figure-caption">
               <p>
-                Animation en stop-motion réalisée par Chinook Baix de la
-                peinture "mannequin au bord de la mer" de Giorgio de Chirico
+                Animation 2D de la sérigraphie "Pop shop plate 3" de Keith
+                Haring
               </p>
             </figcaption>
           </figure>
@@ -145,42 +149,47 @@
           <div class="mediatext mediatext-reverse">
             <div class="mediatext-media">
               <figure class="figure">
-                <img
-                  src="/assets/img/artistes/dechirico.jpg"
-                  class="fluidimg artiste-img"
-                  alt="dechirico"
-                  loading="lazy"
-                  decoding="async"
-                  width="800"
-                  height="600"
-                />
+                <div class="revealimage">
+                  <img
+                    class="revealimage-displayed fluidimg"
+                    src="/assets/img/oeuvres/popart2.jpg"
+                    alt="dechirico"
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="600"
+                  />
+                  <img
+                    class="revealimage-revealed fluidimg"
+                    src="/assets/img/oeuvres-adapt/popart-adapt.jpg"
+                    alt="dechirico"
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="600"
+                  />
+                </div>
                 <figcaption class="figure-caption">
                   L'œuvre face à l'adaptation
                 </figcaption>
               </figure>
             </div>
             <div class="mediatext-text">
-              <h2 class="h2">L'œuvre originale à l'adaptation</h2>
+              <h2 class="h2">De l'œuvre originale à l'adaptation</h2>
               <p>
-                Cette œuvre a été adaptée en stop-motion, une technique
-                d'animation permettant de donner vie à des objets inertes. Le
-                principe consiste à photographier un sujet, le déplacer très
-                légèrement, prendre une nouvelle photo, et ainsi de suite. En
-                assemblant ces images, on crée l'illusion du mouvement.
+                Cette œuvre a été adaptée, pour les personnages, en animation 2D
+                traditionnelle. Une technique qui consiste à créer l'illusion du
+                mouvement en dessinant des personnages, des décors et des
+                objets. Les images sont ensuite affichées successivement à une
+                cadence rapide pour générer une séquence en mouvement.
               </p>
               <p>
-                Contrairement au dessin animé ou à l'animation 3D par
-                ordinateur, le stop-motion travaille avec de vrais objets
-                physiques (figurines, accessoires, pâte à modeler) dans un décor
-                réel.
-              </p>
-              <p>
-                La création des décors de l'animation fait partie intégrante du
-                processus créatif. Il n'a pas fallu seulement recopier la toile,
-                mais trouver la manière de l'adapter en trois dimensions. Le
-                personnage devait pouvoir circuler dedans et il fallait qu'il y
-                ait une impression de profondeur, tout en gardant cet aspect
-                onirique.
+                Le fond de métro, qui rappelle les lieux où Haring créait à
+                l'origine, a été réalisé en motion design. Cette discipline
+                artistique et technique consiste à donner vie à des éléments
+                graphiques (illustrations, typographies, formes géométriques) en
+                les animant pour créer une atmosphère visuelle dynamique et
+                immersive.
               </p>
             </div>
           </div>
@@ -189,6 +198,9 @@
     </main>
     <footer class="footer">
       <div class="container">
+        <p class="text-center">
+          <a class="button" href="/index.html"> Découvir d'autres animation</a>
+        </p>
         <p class="footer-copyright">Site créé par Chinook Baix</p>
       </div>
     </footer>

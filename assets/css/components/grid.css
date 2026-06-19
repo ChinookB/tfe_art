@@ -35,6 +35,10 @@ classes de base
   align-items: center;
 }
 
+.justify-items {
+  justify-items: center;
+}
+
 /* ============================================
 classes responsive
 ============================================ */

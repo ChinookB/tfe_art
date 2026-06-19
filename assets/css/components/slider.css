@@ -29,7 +29,7 @@ slider
   position-area: block-end span-inline-start;
   position: absolute;
   border: none;
-  background-color: pink;
+  background-color: var(--color-accent-dark);
   border-radius: 999px;
   inline-size: 42px;
   aspect-ratio: 1 / 1;

@@ -21,7 +21,7 @@ typography
   --color-blue-light: oklch(from var(--color-blue) 98% c h);
   --color-blue-dark: oklch(from var(--color-blue) 60% calc(c + 0.09) h);
 
-  --color-orange: oklch(91.129% 0.06876 73.551);
+  --color-orange: oklch(92.08% 0.04687 74.436);
   --color-orange-light: oklch(from var(--color-orange) 98% c h);
   --color-orange-dark: oklch(from var(--color-orange) 60% calc(c + 0.09) h);
 

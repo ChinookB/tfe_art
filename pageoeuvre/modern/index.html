@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="fr" data-theme="blue">
+<html lang="fr" data-theme="orange">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tfe_art</title>
     <meta name="description" content="ma jolie description" />
     <link rel="stylesheet" href="/assets/css/main.css" />
+    <script type="module" src="/js/module/main.js"></script>
 
     <!-- @TODO Open graph -->
     <meta property="og:url" content="http://www.monsite.com" />
@@ -53,7 +54,7 @@
       <div class="section">
         <div class="container container-medium">
           <div class="intro">
-            <h1 class="h1">l'art moderne</h1>
+            <h1 class="h1">L'art moderne</h1>
             <div class="intro-text intro-text-highlight">
               <p>
                 Et si les œuvres d'art cessaient d'être immobiles ? Ici, les
@@ -73,40 +74,41 @@
             <div class="mediatext-media">
               <figure class="figure">
                 <img
-                  src="/assets/img/artistes/dechirico.jpg"
+                  src="/assets/img/artistes/matisse.jpg"
                   class="fluidimg artiste-img"
-                  alt="dechirico"
+                  alt="matisse"
                   loading="lazy"
                   decoding="async"
                   width="800"
                   height="600"
                 />
                 <figcaption class="figure-caption">
-                  Giorgio De Chirico peignant “bagni misteriosi”
+                  Matisse devant sa peinture, "Figure décorative sur fond
+                  ornemental"
                 </figcaption>
               </figure>
             </div>
             <div class="mediatext-text">
-              <h2 class="h2">le surréalisme avec giorgio de chirico</h2>
+              <h2 class="h2">l'art moderne avec Henri Matisse</h2>
               <p>
-                Giorgio de Chirico est un peintre surréaliste italien. Ses
-                paysages oniriques et étranges font de lui l'un des artistes les
-                plus influents du XXe siècle.
+                Henri Matisse appartient principalement au courant du fauvisme,
+                dont il est le principal précurseur. Cependant, la peinture "La
+                tristesse du roi" réalisée à la fin de sa vie, illustre
+                également le courant de l'art moderne et s'inscrit dans sa
+                période novatrice des papiers gouachés découpés.
               </p>
               <p>
-                Né en 1924 avec le manifeste d'André Breton, le surréalisme
-                cherche à libérer la création de la raison et du contrôle
-                conscient en explorant l'inconscient, le rêve et le hasard. Son
-                but est de révéler une réalité supérieure, « surréaliste »,
-                issue du monde intérieur.
+                Apparu au milieu du 19e siècle, l'art moderne est une réaction à
+                l'industrialisation et à l'avènement de la photographie. Puisque
+                l'appareil photo pouvait capter la réalité, les artistes ont
+                cherché à faire de l'art autre chose qu'une simple copie du
+                monde.
               </p>
               <p>
-                Les artistes déforment les objets et utilisent des techniques
-                comme le dessin automatique, le collage ou la peinture. Une
-                œuvre surréaliste se compose ainsi généralement d'éléments
-                inattendus, juxtaposés sans lien logique apparent, sur des
-                thèmes comme le rêve, l'imagination ou les phénomènes
-                extraordinaires.
+                Les artistes ne cherchent plus à reproduire fidèlement la
+                réalité, mais à exprimer des émotions, des idées ou une vision
+                subjective, quitte à déformer les formes et les couleurs pour
+                mieux traduire leur ressenti intérieur.
               </p>
             </div>
           </div>
@@ -119,19 +121,21 @@
         <div class="container container-large">
           <figure class="figure">
             <video
-              src="/assets/video/Final_G_2.mp4"
-              class="fluidvideo-4by3"
+              src="/assets/video/final_M.mp4"
+              poster="/assets/img/poster/poster-moderne.png"
+              class="fluidvideo"
               controls
+              loop
             >
               <p>
-                <a href="/assets/video/Final_G_2.mp4">Télécharger la video</a>
+                <a href="/assets/video/final_M.mp4">Télécharger la video</a>
                 en format MP4
               </p>
             </video>
             <figcaption class="figure-caption">
               <p>
-                Animation en stop-motion réalisée par Chinook Baix de la
-                peinture "mannequin au bord de la mer" de Giorgio de Chirico
+                Animation en stop-motion, papier découpé réalisée par Chinook
+                Baix de l'œuvre "La tristesse du roi" de Henri Matisse
               </p>
             </figcaption>
           </figure>
@@ -145,22 +149,33 @@
           <div class="mediatext mediatext-reverse">
             <div class="mediatext-media">
               <figure class="figure">
-                <img
-                  src="/assets/img/artistes/dechirico.jpg"
-                  class="fluidimg artiste-img"
-                  alt="dechirico"
-                  loading="lazy"
-                  decoding="async"
-                  width="800"
-                  height="600"
-                />
+                <div class="revealimage">
+                  <img
+                    class="revealimage-displayed fluidimg"
+                    src="/assets/img/oeuvres/moderne.jpg"
+                    alt="matisse"
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="600"
+                  />
+                  <img
+                    class="revealimage-revealed fluidimg"
+                    src="/assets/img/oeuvres-adapt/moderne-adapt.jpg"
+                    alt="matisse"
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="600"
+                  />
+                </div>
                 <figcaption class="figure-caption">
                   L'œuvre face à l'adaptation
                 </figcaption>
               </figure>
             </div>
             <div class="mediatext-text">
-              <h2 class="h2">L'œuvre originale à l'adaptation</h2>
+              <h2 class="h2">De l'œuvre originale à l'adaptation</h2>
               <p>
                 Cette œuvre a été adaptée en stop-motion, une technique
                 d'animation permettant de donner vie à des objets inertes. Le
@@ -170,17 +185,16 @@
               </p>
               <p>
                 Contrairement au dessin animé ou à l'animation 3D par
-                ordinateur, le stop-motion travaille avec de vrais objets
-                physiques (figurines, accessoires, pâte à modeler) dans un décor
-                réel.
+                ordinateur, le stop-motion travaille avec de vrais objets, pour
+                celle-ci du papier de couleurs découpé, pour se rapprocher de la
+                technique de l'œuvre originale.
               </p>
               <p>
-                La création des décors de l'animation fait partie intégrante du
-                processus créatif. Il n'a pas fallu seulement recopier la toile,
-                mais trouver la manière de l'adapter en trois dimensions. Le
-                personnage devait pouvoir circuler dedans et il fallait qu'il y
-                ait une impression de profondeur, tout en gardant cet aspect
-                onirique.
+                La création des décors fait partie intégrante du processus
+                créatif. Il ne s'agissait pas seulement de recopier la toile,
+                mais de trouver comment superposer les différents éléments pour
+                créer une animation à la fois fluide et fidèle à l'esprit de
+                l'œuvre.
               </p>
             </div>
           </div>
@@ -189,6 +203,9 @@
     </main>
     <footer class="footer">
       <div class="container">
+        <p class="text-center">
+          <a class="button" href="/index.html"> Découvir d'autres animation</a>
+        </p>
         <p class="footer-copyright">Site créé par Chinook Baix</p>
       </div>
     </footer>

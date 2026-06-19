@@ -1,0 +1,8 @@
+/* ============================================
+contour photo 
+============================================ */
+.border {
+  box-sizing: border-box;
+  border: 12px solid white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+}

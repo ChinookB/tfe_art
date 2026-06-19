@@ -34,6 +34,8 @@
 @import "components/figure.css" layer(components);
 @import "components/mediatext.css" layer(components);
 @import "components/slider.css" layer(components);
+@import "components/rotate.css" layer(components);
+@import "components/borderbox.css" layer(components);
 
 /* UTILITIES */
 @import "utilities/text-align.css" layer(utilities);
