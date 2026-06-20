@@ -3,6 +3,10 @@ slider
 ============================================ */
 
 .slider {
+  --slider-gap: 18px;
+  --slider-slides-size: min(72vi, 360px);
+  --slider-padding-blockend: 6px;
+
   anchor-name: --slider;
   anchor-scope: --slider;
 }
@@ -10,10 +14,10 @@ slider
 .slider-track {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: min(72vi, 360px);
-  gap: 32px;
+  grid-auto-columns: var(--slider-slides-size);
+  gap: var(--slider-gap);
 
-  padding-block-end: 6px;
+  padding-block-end: var(--slider-padding-blockend);
 
   overflow-x: scroll;
   scroll-snap-type: inline mandatory;
@@ -24,32 +28,35 @@ slider
   scroll-behavior: smooth;
 }
 
-.slider-track::scroll-button(*) {
-  position-anchor: --slider;
-  position-area: block-end span-inline-start;
-  position: absolute;
-  border: none;
-  background-color: var(--color-accent-dark);
-  border-radius: 999px;
-  inline-size: 42px;
-  aspect-ratio: 1 / 1;
-  cursor: pointer;
-  font-family: system-ui;
-  font-weight: 600;
-}
+@supports selector(.slider-track::scroll-button(*)) {
+  .slider-track::scroll-button(*) {
+    position-anchor: --slider;
+    position-area: block-end span-inline-start;
+    position: absolute;
+    border: none;
+    background-color: var(--color-accent-dark);
+    color: white;
+    border-radius: 999px;
+    inline-size: 42px;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+    font-family: system-ui;
+    font-weight: 600;
+  }
 
-.slider-track::scroll-button(*):disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
+  .slider-track::scroll-button(*):disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 
-.slider-track::scroll-button(left) {
-  content: "←" / "Previous";
-  translate: calc(-100% - 6px) 0;
-}
+  .slider-track::scroll-button(left) {
+    content: "←" / "Previous";
+    translate: calc(-100% - 6px) 0;
+  }
 
-.slider-track::scroll-button(right) {
-  content: "→" / "Next";
+  .slider-track::scroll-button(right) {
+    content: "→" / "Next";
+  }
 }
 
 .slider-slide {
