@@ -1,6 +1,28 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   background-color: var(--color-accent-light);
   font-size: var(--fontsize-base);
+
+  /* source image */
+  border-image-source: url(../../img/pageborder-001.svg);
+  /* distance des 4 lignes de découpage par rapport aux bords de l'image haut / droit / bas / left (ici 18px chanque fois) */
+  border-image-slice: 20;
+  /* largeur de la border */
+  border-image-width: 20px;
+
+  /* repeat / stretch / round / space */
+  border-image-repeat: round;
+}
+
+[data-pageborder="001"] body {
+  border-image-source: url(../../img/pageborder-001.svg);
+}
+
+[data-pageborder="002"] body {
+  border-image-source: url(../../img/pageborder-002.svg);
+}
+
+[data-pageborder="003"] body {
+  border-image-source: url(../../img/pageborder-003.svg);
 }
