@@ -36,6 +36,7 @@
 @import "components/slider.css" layer(components);
 @import "components/rotate.css" layer(components);
 @import "components/borderbox.css" layer(components);
+@import "components/fluidiframe.css" layer(components);
 
 /* UTILITIES */
 @import "utilities/text-align.css" layer(utilities);
