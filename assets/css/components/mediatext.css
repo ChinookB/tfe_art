@@ -42,31 +42,6 @@ module mediatext
   }
 }
 
-.mediatextsmall {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  grid-template-areas:
-    "a"
-    "b";
-  gap: 24px;
-
-  @media (width >= 750px) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-areas: "a b";
-    gap: 60px;
-  }
-
-  @media (width >= 1024px) {
-    grid-template-columns:
-      minmax(0, 3fr)
-      minmax(0, 1fr)
-      minmax(0, 7fr)
-      minmax(0, 1fr);
-    grid-template-areas: "a . b .";
-    gap: 32px;
-  }
-}
-
 .mediatext-media {
   grid-area: a;
 }
