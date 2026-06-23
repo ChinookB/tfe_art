@@ -3,7 +3,7 @@ section
 ============================================ */
 
 .section {
-  --section-padding: clamp(30px, 2vi, 60px);
+  --section-padding: clamp(30px, 0.878rem + 3.191vi, 60px);
 
   padding-block: var(--section-padding);
 }
